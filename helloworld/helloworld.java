@@ -8,6 +8,13 @@ public class helloworld{
         mobil fordshelby = new mobil();
         fordshelby.merk = "Fordshelby";
         fordshelby.maju();
+
+        if(args.length == 0){
+            System.out.println("No Launch Data !!!");
+        }
+        else{
+            System.out.println(args[1]+args[0]);
+        }
     }
 }
 
