@@ -11,7 +11,7 @@ public class Biodata{
         double umur = 20;
         String alamat = "Bumi Puspiptek Asri Sektor 3i Nomor 24, Pagedangan, Tangerang";
 
-
+        System.out.println("Biodata :");
         System.out.println("Nama   : "+NamaDepan+NamaTengah+NamaBelakang);
         System.out.println("TTL    : "+Tempat+Tanggal+strip+Bulan+strip+Tahun);
         System.out.println("Umur   : "+umur+" Tahun");
